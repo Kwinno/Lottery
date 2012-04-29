@@ -1,0 +1,23 @@
+name: Lottery
+main: com.Octavian0.Lottery.Lottery
+version: 1.0.0
+author: Octavian0
+description: >
+             Lotteryplugin created for MCNSA
+             Uses plaintext lottery.txt.
+commands:
+  telelist:
+    description: Lists all defined teleport locations.
+    aliases: [tclist,listtc]
+  teleto:
+    description: Warps the player to a teleport location.
+    aliases: tc
+  teleadd:
+    description: Adds a teleport definition to tele.txt.
+    aliases: ts
+  teleremove:
+    decription: Removes a defined teleport location from tele.txt.
+    aliases: tr
+  po8collect:
+    decription: Help for po8collect.
+    aliases: po8collect
